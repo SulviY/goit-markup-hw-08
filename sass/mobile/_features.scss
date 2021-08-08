@@ -1,0 +1,26 @@
+.features__list {
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.features__item {
+    
+}
+
+@media screen and (min-width: $tablet) {
+    flex-basis: 50%;
+}
+
+@media screen and (min-width: $desktop) {
+    flex-basis: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .features__item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}

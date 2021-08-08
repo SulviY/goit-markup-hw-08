@@ -1,0 +1,44 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: $background-color;
+  }
+  
+  .footer__container {
+    display: flex; 
+  }
+  
+  .footer__contact {
+    margin-right: 70px;
+  
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  
+  .footer__logo {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .footer__item {
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
+  
+  .footer__link {
+    &:focus, &:hover, &:active {
+      color: $secondary-text-color;
+    }
+
+    &--color {
+      color: $secondary-text-color;
+    }
+
+    &--animation {
+      color: rgba(255, 255, 255, 0.6);
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }

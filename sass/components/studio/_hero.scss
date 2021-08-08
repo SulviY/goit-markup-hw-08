@@ -1,0 +1,60 @@
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+  
+    background: $background-color;
+    align-items: center;
+    text-align: center;
+  
+    background-color: #c4c4c4;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/hero/bg-img.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .hero__title {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  
+    color: $secondary-text-color;
+  }
+  
+  .hero__button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+  
+    background: $accent-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+  
+    color: $secondary-text-color;
+    background: $accent-color;
+  
+    cursor: pointer;
+  }
+  
+  

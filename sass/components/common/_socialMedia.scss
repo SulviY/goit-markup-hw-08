@@ -1,0 +1,32 @@
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-media__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  
+    background-color: transparent;
+    fill: #afb1b8;
+
+    &:hover, &:focus {
+      background-color: $accent-color;
+      fill: $secondary-text-color;
+    }
+  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .social-media__icon {
+    width: 20px;
+    height: 20px;
+  }
+  
