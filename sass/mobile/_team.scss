@@ -1,0 +1,85 @@
+.team {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f5f4fa;
+}
+
+.team__title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+}
+
+.team__list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.team__item {
+  text-align: center;
+  background: $secondary-text-color;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.team__card {
+  padding-top: 30px;
+  padding-bottom: 36px;
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  &--margin {
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: $title-text-color;
+  }
+
+  &--style {
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+}
+
+.social-media__item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+ 
+.social-media__icon {
+  width: 44px;
+  height: 44px;
+
+  padding-left: 0px;
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+ 
+
+
+ 

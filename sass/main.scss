@@ -1,17 +1,18 @@
 @import './utils/variables'; 
 @import './base/normalize';
 @import './utils/breakpoints';
+@import './mobile/common';
 @import './mobile/container';
 @import './mobile/header';
 @import './mobile/hero';
 @import './mobile/modal';
-@import './mobile/nav';
 @import './mobile/features';
+@import './mobile/solutions';
 @import './mobile/team';
+@import './mobile/social-media';
 @import './mobile/clients';
 @import './mobile/footer';
-
-// @import '';
+@import './mobile/subscription';
 // @import '';
 // @import '';
 
