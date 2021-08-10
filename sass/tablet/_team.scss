@@ -1,0 +1,12 @@
+@media screen and (min-width: $tablet) {
+    .team__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+    }
+
+    .team__item {
+        width: calc((100% - 2 * 30px) / 2);
+        margin: 15px;
+    }
+}

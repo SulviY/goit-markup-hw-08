@@ -12,48 +12,59 @@
 </head>
 <body>
     <!--header-->
-    <header class="header title">
+    <header class="header ">
         <div class="container header__container">
-                <a href="./index.html" class="logo link"><span class="accent">Web</span>Studio</a>
-
+            
             <!--navigation-->
-            <nav class="nav title">
+            <nav class="nav " >
+                <a href="./index.html" class="logo link"><span class="logo--accent">Web</span>Studio</a>
+                <button class="nav__button is-open" type="button" data-menu-button>
+                    <svg class="nav__icon" width=40px height=40px aria-label="Переключатель мобильного меню" aria-expanded="false" aria-controls="menu-container">
+                        <use class="icon-cross" href="./images/icons.svg#icon-cross"></use>
+                        <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>  
+                <div class="nav__container" id="nav__container" data-menu>
+                    
+                </div>                        
+            </nav>
+
+           <div class="menu-container">
                 <ul class="nav__menu list">
                     <li class="menu__item">
-                        <a class="menu__link link" href="./index.html">Студия</a>
+                        <a class="menu__link link link__current" href="#">Студия</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link link link__current" href="#">Портфолио</a>
+                        <a class="menu__link link" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="menu__item">
                         <a class="menu__link link" href="#">Контакты</a>
                     </li>
-                </ul>           
-            </nav>
-
-            <ul class="contact list">
-                <li class="contact__item">
-                    <a class="contact__link link" href="mailto:info@devstudio.com">
-                        <svg class="contact__icon" width=16px height=12px>
-                            <use href="./images/icons.svg#icon-envelope"></use>
-                        </svg>
-                        info@devstudio.com
-                    </a>
-                </li>
-                <li class="contact__item">
-                    <a class="contact__link link" href="tel:+380961111111">
-                        <svg class="contact__icon" width=10px height=16px>
-                            <use href="./images/icons.svg#icon-mobile"></use>
-                        </svg>
-                        +38 096 111 11 11
-                    </a>
-                </li>
-            </ul>
+                </ul> 
+                <ul class="contact list">
+                    <li class="contact__item">
+                        <a class="contact__link link" href="mailto:info@devstudio.com">
+                            <svg class="contact__icon" width=14px height=10px>
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a class="contact__link link" href="tel:+380961111111">
+                            <svg class="contact__icon" width=10px height=14px>
+                                <use href="./images/icons.svg#icon-mobile"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                </ul>
+           </div>
         </div>
     </header>
 
     <!--our projects-->
-    <section class="container section">
+    <section class="projects container section">
         <h2 class="visually-hidden">
             Наши проекты
         </h2>
@@ -73,12 +84,12 @@
                 <article>
                     <a href="#" class="projects__link link">
                         <div class="projects__overflow">
-                            <img class="no-gap" src="./images/portfolio/website-opened-on-the-laptop.jpg" alt="Веб-сайт открыт на ноутбуке" width="370" height="295">
+                            <img class="no-gap" src="./images/portfolio/website-opened-on-the-laptop.jpg" alt="Веб-сайт открыт на ноутбуке" width="450" height="294">
                             <p class="projects__hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                         <div class="card__border">
                             <h3 class="projects__title title">Технокряк</h3>
-                            <p class="projects__text">Веб-сайт</p>
+                            <p class="projects__text">Веб-сайт</p> <br/><br/>
                         </div>    
                     </a>
                 </article>
@@ -87,7 +98,7 @@
                 <article>
                     <a href="#" class="projects__link link">
                         <div class="projects__overflow">
-                            <img class="no-gap" src="./images/portfolio/two-basketballers.jpg" alt="Два баскетболиста" width="370" height="295">
+                            <img class="no-gap" src="./images/portfolio/two-basketballers.jpg" alt="Два баскетболиста" width="450" height="294">
                             <p class="projects__hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                         <div class="card__border">
@@ -101,7 +112,7 @@
             <article>
                 <a href="#" class="projects__link link">
                     <div class="projects__overflow">
-                        <img class="no-gap" src="./images/portfolio/fish-and-name-of-the-restaurant.jpg" alt="Лого ресторана на фоне рыбы" width="370" height="295">
+                        <img class="no-gap" src="./images/portfolio/fish-and-name-of-the-restaurant.jpg" alt="Лого ресторана на фоне рыбы" width="450" height="294">
                         <p class="projects__hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </div>
                     <div class="card__border">
@@ -115,7 +126,7 @@
                 <article>
                     <a href="#" class="projects__link link">
                         <div class="projects__overflow">
-                            <img class="no-gap" src="./images/portfolio/headphones.jpg" alt="Наушники" width="370" height="295">
+                            <img class="no-gap" src="./images/portfolio/headphones.jpg" alt="Наушники" width="450" height="294">
                             <p class="projects__hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                         <div class="card__border">
@@ -129,7 +140,7 @@
                 <article>
                     <a href="#" class="projects__link link">
                         <div class="projects__overflow">
-                            <img class="no-gap" src="./images/portfolio/two-boxes.jpg" alt="Две коробки" width="370" height="295">
+                            <img class="no-gap" src="./images/portfolio/two-boxes.jpg" alt="Две коробки" width="450" height="294">
                             <p class="projects__hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                         <div class="card__border">
@@ -143,7 +154,7 @@
                 <article>
                     <a href="#" class="projects__link link">
                         <div class="projects__overflow">
-                            <img class="no-gap" src="./images/portfolio/monitor.jpg" alt="Монитор" width="370" height="295">
+                            <img class="no-gap" src="./images/portfolio/monitor.jpg" alt="Монитор" width="450" height="294">
                             <p class="projects__hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                         <div class="card__border">
@@ -157,7 +168,7 @@
                 <article>
                     <a href="#" class="projects__link link">
                         <div class="projects__overflow">
-                            <img class="no-gap" src="./images/portfolio/open-book.jpg" alt="Открытая книга" width="370" height="295">
+                            <img class="no-gap" src="./images/portfolio/open-book.jpg" alt="Открытая книга" width="450" height="294">
                             <p class="projects__hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                         <div class="card__border">
@@ -171,7 +182,7 @@
                 <article>
                     <a href="#" class="projects__link link">
                         <div class="projects__overflow">                
-                            <img class="no-gap" src="./images/portfolio/label-tag.jpg" alt="Ярлык с надписью" width="370" height="295">
+                            <img class="no-gap" src="./images/portfolio/label-tag.jpg" alt="Ярлык с надписью" width="450" height="294">
                             <p class="projects__hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                         <div class="card__border">
@@ -185,7 +196,7 @@
                 <article>
                     <a href="#" class="projects__link link">
                         <div class="projects__overflow">
-                            <img class="no-gap" src="./images/portfolio/hands-on-the-laptop-keyboard.jpg" alt="Руки на клавиатуре ноутбука" width="370" height="295">
+                            <img class="no-gap" src="./images/portfolio/hands-on-the-laptop-keyboard.jpg" alt="Руки на клавиатуре ноутбука" width="450" height="294">
                             <p class="projects__hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                         <div class="card__border">
@@ -198,57 +209,63 @@
         </ul>
     </section>
 
-    <!--footer-->
+    <!--FOOTER-->
     <footer class="footer">
         <div class="container footer__container">
-            <div class="footer__contact">
-                <a class="footer__logo logo link" href="./index.html"><span class="accent">Web</span><span class="accent-white">Studio</span></a>
-                <address>
-                    <ul class="list">
-                        <li class="footer__item">
-                            <a class="link footer__link footer__link--color" href="https://goo.gl/maps/1tLhj7a7vcUZVFGCA" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="link footer__link footer__link--animation" href="mailto:info@example.com">info@example.com</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="link footer__link footer__link--animation" href="tel:+380991111111">+38 099 111 11 11</a>
-                        </li>
-                    </ul>
-                </address>
+          <div class="footer__tablet">
+            <div class="">
+                <div class="footer__logo">
+                    <a class="logo link" href="./index.html">
+                        <span class="logo--accent">Web</span><span class="logo--white">Studio</span>
+                    </a>  
+                </div>
+                    <address>
+                        <ul class="footer__list list">
+                            <li class="footer__item">
+                                <a class="link footer__link footer__item--color" href="https://goo.gl/maps/1tLhj7a7vcUZVFGCA" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="link footer__link footer__item--animation" href="mailto:info@example.com">info@example.com</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="link footer__link footer__item--animation" href="tel:+380991111111">+38 099 111 11 11</a>
+                            </li>
+                        </ul>
+                    </address>
             </div>
+           
             <div class="footer__join-us">
                 <p class="footer__text">
                     присоединяйтесь
                 </p>
-                <ul class="social-media">
-                    <li class="list">
-                        <a href="#" class="social-media__link footer__social-media">
-                            <svg class="social-media__icon">
+                <ul class="footer__social-media">
+                    <li class="social-media__item list">
+                        <a href="#">
+                            <svg class="social-media__icon social-media__icon--color">
                                 <use href="./images/icons.svg#icon-instagram">
                                 </use>
                         </svg>
                         </a>
                     </li>
-                    <li class="list">
-                        <a href="#" class="social-media__link footer__social-media">
-                            <svg class="social-media__icon">
+                    <li class="social-media__item list">
+                        <a href="#">
+                            <svg class="social-media__icon social-media__icon--color">
                                 <use href="./images/icons.svg#icon-twitter">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="list">
-                        <a href="#" class="social-media__link footer__social-media">
-                            <svg class="social-media__icon">
+                    <li class="social-media__item list">
+                        <a href="#">
+                            <svg class="social-media__icon social-media__icon--color">
                                 <use href="./images/icons.svg#icon-facebook">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="list">
-                        <a href="#" class="social-media__link footer__social-media">
-                            <svg class="social-media__icon">
+                    <li class="social-media__item list">
+                        <a href="#">
+                            <svg class="social-media__icon social-media__icon--color">
                                 <use href="./images/icons.svg#icon-linkedin">
                                 </use>
                             </svg>
@@ -256,6 +273,7 @@
                     </li>
                 </ul>
             </div>
+          </div>
 
             <div class="subscription">
                 <p class="subscription__title">подпишитесь на рассылку</p>

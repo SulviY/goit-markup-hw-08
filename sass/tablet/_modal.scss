@@ -1,0 +1,14 @@
+@media screen and (min-width: $tablet) {
+    .modal {
+        width: 450px;
+        height: 609px;
+    }
+    
+    .form__input, .form__comment {
+    width: 370px;
+    }
+
+    .checkbox__text {
+        font-size: 12px;
+    }
+}

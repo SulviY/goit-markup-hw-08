@@ -1,0 +1,34 @@
+@media screen and (min-width: $tablet) {
+    .projects {
+        margin: 0px;
+    }
+
+    .filter {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .projects__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .projects__item {
+        width: calc((100% - 30px) / 2);
+        // height: 440px;
+
+        &:nth-child(n + 3) {
+            margin-top: 15px;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+
+        .projects__hover {
+            width: 100%;
+        }
+    }
+    
+}
