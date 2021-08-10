@@ -19,7 +19,7 @@
     }
 
     .header__container {
-        justify-content: left;
+        justify-content: space-between;
     }
 
     .nav__menu {
@@ -28,5 +28,9 @@
 
     .contact__item {
         margin-bottom: 0px;
+
+        &:first-child {
+            margin-right: 30px;
+        }
     }
 }

@@ -4,57 +4,74 @@
     }
 }
 
-// .solutions__list {
-//     @extend %list;
-// }
-
 .solutions__item {
     text-align: center;
     color: $secondary-text-color;
 }
 
-// .solutions__title,
-// .team__title,
-// .clients__title {
-//   margin-bottom: 50px;
-//   font-weight: 700;
-//   font-size: 36px;
-//   line-height: 1.16;
-//   text-align: center;
-//   letter-spacing: 0.03em;
-// }
+@media (min-width: $desktop) {
+    .solutions__title {
+        margin-top: 0px;
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
 
-// .solutions__list {
-//   display: flex;
-//   justify-content: center;
-// }
+        color: $title-text-color;
+    }
+    .solutions {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .solutions__list {
+        display: flex;
+        justify-content: center;
 
-// .solutions__item {
-//   position: relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+      }
 
-//   &:not(:last-child) {
-//     margin-right: 30px;
-//   }
-// }
+    .solutions__item {
+    position: relative;
+    
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 
-// .solutions__label {
-//   position: absolute;
-//   left: 0;
-//   bottom: 0;
+    .solutions__label {
+        position: absolute;
+        left: 0;
+        bottom: 0;
 
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 370px;
-//   height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 370px;
+        height: 70px;
 
-//   font-weight: bold;
-//   font-size: 14px;
-//   line-height: 1.14;
-//   text-align: center;
-//   letter-spacing: 0.03em;
-//   text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 0px;
 
-//   color: $secondary-text-color;
-//   background: rgba(47, 48, 58, 0.8);
-// }
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        color: $secondary-text-color;
+        background: rgba(47, 48, 58, 0.8);
+    }
+      
+}
+
+
+
+
+
+}
+
+
