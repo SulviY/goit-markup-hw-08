@@ -34,6 +34,14 @@
     .team__item:not(:last-child) {
         margin-bottom: 30px;
     }
+
+  .team__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
 }
 
 .team__card {
