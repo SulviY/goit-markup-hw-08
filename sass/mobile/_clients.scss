@@ -6,20 +6,26 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .clents {
+@media screen and (max-width: 1199px) {
+  .clients {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
+  .clients__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+    color: $title-text-color;
+    text-align: center;
+}
 }
 
-.clients__title {
-  margin-top: 0px;
-  margin-bottom: 30px;
-
-  color: $title-text-color;
-  text-align: center;
-}
 
 .clients__list {
   display: flex;
