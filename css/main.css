@@ -1263,7 +1263,7 @@ body {
     background: #f5f4fa;
     border-radius: 4px;
   }
-  width: calc((100% - 4 * 30px) / 4);
+
   .features__list {
     display: -webkit-box;
     display: -ms-flexbox;
