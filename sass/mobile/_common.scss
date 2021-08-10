@@ -3,7 +3,10 @@ body {
     color: $primary-text-color;
     font-family: $font-family;
     letter-spacing: $letter-spacing;
+    overflow-x:  hidden;
 }
+
+html { overflow-x:  hidden; }
 
 .list {
     list-style: none;

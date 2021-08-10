@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./dist/css/main.min.css">
 </head>
 <body>
+    
     <!--header-->
     <header class="header ">
         <div class="container header__container">
@@ -181,15 +182,36 @@
                 <h2 class="solutions__title title">Чем мы занимаемся</h2>
                 <ul class="solutions__list list">
                     <li class="solutions__item">                    
-                        <img class="no-gap" src="./images/what_we_are_doing/work_on_keyboard.jpg" alt="создание разметки страницы" width="370" height="295">    
+                        <img class="no-gap" 
+                        srcset="
+                        ./images/what_we_are_doing/work_on_keyboard.jpg 1x,
+                        ./images/what_we_are_doing/work_on_keyboard_740.jpg 2x
+                        " 
+                        src="./images/what_we_are_doing/work_on_keyboard.jpg" 
+                        alt="создание разметки страницы" 
+                        width="370" height="295">    
                         <h3 class="solutions__label">десктопные приложения</h3>
                     </li>
                     <li class="solutions__item">
-                        <img class="no-gap" src="./images/what_we_are_doing/design.jpg" alt="выбор дизайна для мобильного приложения" width="370" height="295">
+                        <img class="no-gap" 
+                        srcset="
+                        ./images/what_we_are_doing/design.jpg 1x,
+                        ./images/what_we_are_doing/design_740.jpg 2x
+                        "
+                        src="./images/what_we_are_doing/design.jpg" 
+                        alt="выбор дизайна для мобильного приложения" 
+                        width="370" height="295">
                         <h3 class="solutions__label">мобильные приложения</h3>                 
                     </li>
                     <li class="solutions__item">
-                        <img class="no-gap" src="./images/what_we_are_doing/colors.jpg" alt="выбор цвета" width="370" height="295">
+                        <img class="no-gap" 
+                        srcset="
+                        ./images/what_we_are_doing/colors.jpg 1x,
+                        ./images/what_we_are_doing/colors_740.jpg 2x
+                        "
+                        src="./images/what_we_are_doing/colors.jpg" 
+                        alt="выбор цвета" 
+                        width="370" height="295">
                         <h3 class="solutions__label">дизайнерские решения</h3>
                     </li>
                 </ul>
@@ -638,6 +660,12 @@
 
     <script src="./js/modal.js"></script>
     <script src="./js/jsMenu.js"></script>
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
     <!-- <script src="./js/mobile-menu.js"></script> -->
 </body>
 </html>

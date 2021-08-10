@@ -3,6 +3,11 @@ body {
   color: #757575;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 .list {
