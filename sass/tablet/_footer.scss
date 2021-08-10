@@ -1,6 +1,11 @@
 @media screen and (min-width: $tablet) and (max-width: 1199px) {
-    .footer__tablet {
-        display: flex;
-        justify-content: space-around;
-    }
+ .footer__contact,
+ .footer__join-us {
+     display: inline-block;
+     top: 0;
+ }
+ .footer__contact {
+     margin-right: 165px;
+
+ }
 }
