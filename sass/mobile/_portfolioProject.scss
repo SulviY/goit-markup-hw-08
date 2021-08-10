@@ -1,22 +1,23 @@
+@media screen and (max-width: 767px) {
+    .projects__item {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    
+        &:nth-child(3n + 3) {
+            margin-right: 0px;
+        }
+    
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+}
+
 .projects__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-.projects__item {
-    margin-right: 0px;
-    margin-bottom: 30px;
-    width: 450px;
-
-    &:nth-child(3n + 3) {
-        margin-right: 0px;
-    }
-
-    &:last-child {
-        margin-bottom: 0px;
-    }
-}
+}  
 
 .projects__overflow {
     position: relative;

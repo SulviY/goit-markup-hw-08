@@ -1,0 +1,19 @@
+@media screen and (min-width: $desktop) {
+    .clients__list {
+        flex-wrap: nowrap;
+    }
+
+    .clients__link {
+        width: 170px;
+        height: 92px;
+    }
+
+    .clients__item {
+        margin-bottom: 0px;
+    }
+
+    .clients {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}

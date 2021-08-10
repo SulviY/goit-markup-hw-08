@@ -1,6 +1,9 @@
-.clients {
-  padding-top: 60px;
-  padding-bottom: 60px;
+@media screen and (max-width: 1199px) {
+  .clients__item {
+    &:nth-child(-n + 4) {
+      margin-bottom: 30px;
+    }
+  }
 }
 
 .clients__title {
@@ -20,12 +23,6 @@
   margin-top: 0px;
   margin-bottom: 0px;  
   padding-left: 0px;
-}
-  
-.clients__item {
-  &:nth-child(-n + 4) {
-    margin-bottom: 30px;
-  }
 }
 
 .clients__link {

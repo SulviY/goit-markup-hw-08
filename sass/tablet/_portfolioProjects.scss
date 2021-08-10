@@ -14,9 +14,15 @@
         justify-content: space-between;
     }
 
+
+    .projects__hover {
+            width: 100%;
+        }
+}
+
+@media screen and (min-width: $tablet) and (max-width: 1199px) {
     .projects__item {
         width: calc((100% - 30px) / 2);
-        // height: 440px;
 
         &:nth-child(n + 3) {
             margin-top: 15px;
@@ -25,10 +31,7 @@
         &:not(:last-child) {
             margin-bottom: 15px;
         }
-
-        .projects__hover {
-            width: 100%;
-        }
     }
-    
+}
+
 }

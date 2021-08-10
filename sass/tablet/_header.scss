@@ -1,26 +1,15 @@
 @media screen and (min-width: 768px) {
-    .mobile-menu__social {
-        display: none;
-    }
-
-    .mobile-menu__close-button {
-        display: none;
-    }
-
-    .nav__button {
-        display: none;
-    }
-
-    .menu-container {
-        display: flex;
-    }
-
     .header__container {
         display: flex;
-        justify-content: space-between;
+        justify-content: left;
         padding-top: 21px;
         padding-bottom: 21px;
     }
+
+    .menu__container {
+        display: flex;
+    }
+
 
     .nav {
         margin-right: 88px;

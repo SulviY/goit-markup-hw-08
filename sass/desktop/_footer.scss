@@ -1,0 +1,34 @@
+@media screen and (min-width: $desktop) {
+    .footer__container {
+        display: flex;
+    }
+
+    .footer__contact {
+        margin-right: 70px;
+        text-align: left;
+    }
+    .footer__join-us {
+        margin-right: 93px;
+        text-align: left;
+    }
+
+    .footer__subscription {
+        margin-right: 12px;
+
+    }
+
+    .subscription__title {
+        text-align: left;
+    }
+    .subscription__form {
+        display: flex;
+    }
+
+    .subscription__input {
+        margin-bottom: 0px;
+        margin-right: 12px;
+
+        width: 358px;
+        height: 50px;
+    }
+}
