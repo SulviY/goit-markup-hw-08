@@ -1,0 +1,32 @@
+@media screen and (min-width: $desktop)  {
+    .contact {
+        display: flex;
+    }
+
+    .menu__container {
+        justify-content: space-between;
+    }
+
+    .link__current {
+        &::after {
+          content: "";
+          bottom: -29px;
+          }
+    }
+    
+    .nav {
+        margin-right: 93px;
+    }
+
+    .header__container {
+        justify-content: left;
+    }
+
+    .nav__menu {
+        margin-right: 305px;
+    }
+
+    .contact__item {
+        margin-bottom: 0px;
+    }
+}
