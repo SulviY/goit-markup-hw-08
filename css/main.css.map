@@ -37,7 +37,8 @@
         "../sass/desktop/_team.scss",
         "../sass/desktop/_clients.scss",
         "../sass/desktop/_footer.scss",
-        "../sass/desktop/_desktopProjects.scss"
+        "../sass/desktop/_desktopProjects.scss",
+        "../sass/mobile/_menu.scss"
     ],
     "names": [],
     "file": "main.css"
