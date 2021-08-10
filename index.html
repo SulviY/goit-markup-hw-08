@@ -18,8 +18,16 @@
             <!--navigation-->
             <nav class="nav " >
                 <a href="./index.html" class="logo link"><span class="logo--accent">Web</span>Studio</a>
-                <button class="nav__button is-open" type="button" data-menu-button>
-                    <svg class="nav__icon" width=40px height=40px aria-label="Переключатель мобильного меню" aria-expanded="false" aria-controls="menu-container">
+                <button 
+                data-menu-open
+                class="nav__button is-open  js-open-menu" 
+                type="button" 
+                aria-label="Переключатель мобильного меню" 
+                aria-expanded="false" 
+                aria-controls="menu-container"
+               
+                data-menu-button>
+                    <svg class="nav__icon" width=40px height=40px>
                         <use class="icon-cross" href="./images/icons.svg#icon-cross"></use>
                         <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
                     </svg>
@@ -29,7 +37,7 @@
                 </div>                        
             </nav>
 
-           <div class="menu-container">
+           <div class="menu-container is-open js-menu-container">
                 <ul class="nav__menu list">
                     <li class="menu__item">
                         <a class="menu__link link link__current" href="#">Студия</a>
@@ -70,7 +78,7 @@
                         <a class="social-page" href="#"></a>LinkedIn</li>
                 </ul>
 
-                <button class="mobile-menu__close-button" type="button">
+                <button class="mobile-menu__close-button js-close-menu" type="button">
                     <svg class="close-button__cross">
                         <use href="./images/icons.svg#icon-cross">
                         </use>
